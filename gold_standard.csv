@@ -1,5 +1,6 @@
 profile_id,kind,item_a,item_b,expected_action,in_reference,adjudicated,notes
 P01,duplication,acetaminophen,,now,yes,,Norco contains acetaminophen; patient adds Tylenol
+P01,food,metformin,alcohol,next_visit,yes,,Lactic acidosis risk
 P02,interaction,levothyroxine,calcium carbonate,next_visit,yes,,Absorption blocked; separate by 4 hours
 P02,interaction,levothyroxine,omeprazole,next_visit,yes,,Reduced acid lowers absorption
 P02,food,levothyroxine,food,next_visit,yes,,Empty stomach dosing
@@ -12,15 +13,18 @@ P04,food,doxycycline,dairy products,next_visit,yes,,Calcium chelation
 P05,duplication,acetaminophen,,now,yes,,Percocet and Tylenol PM both contain acetaminophen
 P06,interaction,sertraline,escitalopram,now,yes,,Two SSRIs; serotonin syndrome risk
 P07,interaction,lisinopril,spironolactone,next_visit,yes,,Additive hyperkalemia
-P07,interaction,lisinopril,aspirin,next_visit,no,,High-dose NSAID effect on antihypertensive
+P07,interaction,lisinopril,aspirin,next_visit,no,,NSAID effect on antihypertensive
 P08,interaction,warfarin,amoxicillin,now,no,,Antibiotics can raise INR
+P08,food,warfarin,leafy green vegetables,aware,yes,,Vitamin K consistency
 P09,interaction,metformin,prednisone,next_visit,no,,Steroids raise blood glucose
 P09,food,metformin,alcohol,next_visit,yes,,Lactic acidosis risk
 P10,interaction,metoprolol,albuterol,aware,no,,Beta blockade can reduce rescue inhaler response
+P10,food,atorvastatin,grapefruit juice,next_visit,yes,,CYP3A4 inhibition
 P11,interaction,sertraline,ibuprofen,now,no,,SSRI plus NSAID raises GI bleeding risk
 P12,interaction,gabapentin,cyclobenzaprine,next_visit,no,,Additive sedation and fall risk
-P13,none,,,,,,Deliberate negative control; no finding expected
-P14,unresolved,NyQuil,,next_visit,yes,,Should be surfaced as a coverage gap
+P13,none,,,,,,Negative control. No duplication, interaction, or food finding expected.
+P14,food,metformin,alcohol,next_visit,yes,,Lactic acidosis risk
 P15,interaction,warfarin,doxycycline,now,no,,Tetracyclines can raise INR
 P15,interaction,doxycycline,calcium carbonate,next_visit,yes,,Chelation; separate by 2 hours
 P15,food,warfarin,leafy green vegetables,aware,yes,,Vitamin K consistency
+P15,food,doxycycline,dairy products,next_visit,yes,,Calcium chelation

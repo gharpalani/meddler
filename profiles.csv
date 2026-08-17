@@ -11,6 +11,6 @@ P09,Diabetes with a steroid taper,metformin|prednisone|lisinopril
 P10,Asthma plus cardiac beta blockade,albuterol|metoprolol|atorvastatin
 P11,Depression with regular NSAID use,sertraline|ibuprofen|omeprazole
 P12,Back pain on two sedating agents,gabapentin|cyclobenzaprine|Tylenol
-P13,Clean list with no expected findings,amlodipine|atorvastatin|cephalexin
-P14,Unidentifiable OTC product in the list,NyQuil|lisinopril|metformin
+P13,Negative control with no expected findings,amlodipine|cephalexin|gabapentin
+P14,Combination OTC product in the list,NyQuil|lisinopril|metformin
 P15,Anticoagulated patient on a tetracycline,warfarin|doxycycline|calcium carbonate
