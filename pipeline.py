@@ -72,6 +72,32 @@ def clean_entry(raw: str) -> list[str]:
 
 
 @lru_cache(maxsize=512)
+def _is_ingredient(term: str) -> str | None:
+    """Ask RxNorm directly whether this name IS an active ingredient.
+
+    This is the fix for a false positive found in evaluation. Querying /drugs
+    for "omeprazole" returns product concepts, including an aspirin/omeprazole
+    combination, and our code attributed aspirin to a patient who was not
+    taking it, producing a bleeding-risk warning that did not exist.
+
+    Ranking candidates by term type was not enough, because /drugs did not
+    return an IN concept to rank to the front. The reliable question is asked
+    of a different endpoint: /rxcui with tty=IN matches only when the name is
+    itself an ingredient.
+    """
+    try:
+        r = requests.get(f"{RXNAV}/rxcui.json",
+                         params={"name": term, "search": 0, "tty": "IN"},
+                         timeout=TIMEOUT)
+        if r.status_code != 200:
+            return None
+        ids = (r.json().get("idGroup", {}) or {}).get("rxnormId") or []
+        return ids[0] if ids else None
+    except requests.RequestException:
+        return None
+
+
+@lru_cache(maxsize=512)
 def _rxnorm_candidates(term: str) -> tuple:
     """Candidate RxCUIs for a name, single ingredients ranked first."""
     found = []
@@ -153,9 +179,20 @@ def _ingredients_via_openfda(term: str) -> tuple:
 def resolve_ingredients(term: str) -> tuple[list[str], str | None]:
     """Resolve a product name to its active ingredients.
 
+    Order matters. Ingredient names resolve to themselves and never touch
+    product lookup. Only brand and combination names go on to products.
+
     Returns (ingredients, source). An empty list means we could not identify
     it, which the interface must surface rather than treat as safe.
     """
+    clean = (term or "").strip().lower()
+
+    # Stage 0: is this an active ingredient in its own right? If so, stop.
+    # Going on to product lookup from here is how a combination product adds
+    # ingredients the patient does not actually have in hand.
+    if _is_ingredient(clean):
+        return [clean], "RxNorm/IN"
+
     ings, src = _ingredients_via_rxnorm(term)
     if not ings:
         ings, src = _ingredients_via_openfda(term)
