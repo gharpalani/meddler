@@ -1,0 +1,16 @@
+profile_id,description,medications
+P01,Older adult with chronic pain and hypertension,Norco|Tylenol Extra Strength|lisinopril|metformin
+P02,Hypothyroid patient self-treating heartburn,Synthroid|Tums|omeprazole
+P03,Atrial fibrillation with occasional pain relief,warfarin|ibuprofen|metoprolol
+P04,High cholesterol with a course of antibiotics,atorvastatin|doxycycline|calcium carbonate
+P05,Post-surgical pain with OTC sleep aid,Percocet|Tylenol PM|lisinopril
+P06,Depression treated by two prescribers,sertraline|escitalopram|gabapentin
+P07,Heart failure with potassium-sparing diuretic,lisinopril|spironolactone|metoprolol|aspirin
+P08,Anticoagulated patient starting an antibiotic,warfarin|amoxicillin|omeprazole
+P09,Diabetes with a steroid taper,metformin|prednisone|lisinopril
+P10,Asthma plus cardiac beta blockade,albuterol|metoprolol|atorvastatin
+P11,Depression with regular NSAID use,sertraline|ibuprofen|omeprazole
+P12,Back pain on two sedating agents,gabapentin|cyclobenzaprine|Tylenol
+P13,Clean list with no expected findings,amlodipine|atorvastatin|cephalexin
+P14,Unidentifiable OTC product in the list,NyQuil|lisinopril|metformin
+P15,Anticoagulated patient on a tetracycline,warfarin|doxycycline|calcium carbonate
