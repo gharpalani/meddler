@@ -1,0 +1,108 @@
+name,description
+Norco,5/325 mg · hydrocodone / acetaminophen
+Norco,7.5/325 mg · hydrocodone / acetaminophen
+Norco,10/325 mg · hydrocodone / acetaminophen
+Percocet,5/325 mg · oxycodone / acetaminophen
+Percocet,7.5/325 mg · oxycodone / acetaminophen
+Percocet,10/325 mg · oxycodone / acetaminophen
+Tylenol Extra Strength,500 mg · acetaminophen
+Tylenol,325 mg · acetaminophen
+Tylenol,500 mg · acetaminophen
+Tylenol,650 mg · acetaminophen
+Tylenol PM,500/25 mg · acetaminophen / diphenhydramine
+acetaminophen,325 mg · generic
+acetaminophen,500 mg · generic
+acetaminophen,650 mg · generic
+NyQuil,"liquid · cold and flu, nighttime"
+NyQuil,"LiquiCaps · cold and flu, nighttime"
+Synthroid,25 mcg · levothyroxine
+Synthroid,50 mcg · levothyroxine
+Synthroid,75 mcg · levothyroxine
+Synthroid,88 mcg · levothyroxine
+Synthroid,100 mcg · levothyroxine
+Synthroid,112 mcg · levothyroxine
+Synthroid,125 mcg · levothyroxine
+Synthroid,150 mcg · levothyroxine
+levothyroxine,25 mcg · thyroid hormone
+levothyroxine,50 mcg · thyroid hormone
+levothyroxine,75 mcg · thyroid hormone
+levothyroxine,88 mcg · thyroid hormone
+levothyroxine,100 mcg · thyroid hormone
+levothyroxine,125 mcg · thyroid hormone
+levothyroxine,150 mcg · thyroid hormone
+Tums,500 mg · calcium carbonate antacid
+Tums,750 mg · calcium carbonate antacid
+Tums,1000 mg · calcium carbonate antacid
+calcium carbonate,500 mg · calcium supplement
+calcium carbonate,600 mg · calcium supplement
+calcium carbonate,1250 mg · calcium supplement
+omeprazole,"10 mg · Prilosec, acid reducer"
+omeprazole,"20 mg · Prilosec, acid reducer"
+omeprazole,"40 mg · Prilosec, acid reducer"
+warfarin,"1 mg · Coumadin, blood thinner"
+warfarin,"2 mg · Coumadin, blood thinner"
+warfarin,"2.5 mg · Coumadin, blood thinner"
+warfarin,"5 mg · Coumadin, blood thinner"
+warfarin,"7.5 mg · Coumadin, blood thinner"
+warfarin,"10 mg · Coumadin, blood thinner"
+apixaban,"2.5 mg · Eliquis, blood thinner"
+apixaban,"5 mg · Eliquis, blood thinner"
+aspirin,81 mg · ASA
+aspirin,325 mg · ASA
+ibuprofen,"200 mg · Motrin, anti-inflammatory"
+ibuprofen,"400 mg · Motrin, anti-inflammatory"
+ibuprofen,"600 mg · Motrin, anti-inflammatory"
+ibuprofen,"800 mg · Motrin, anti-inflammatory"
+Advil,200 mg · ibuprofen
+atorvastatin,"10 mg · Lipitor, cholesterol"
+atorvastatin,"20 mg · Lipitor, cholesterol"
+atorvastatin,"40 mg · Lipitor, cholesterol"
+atorvastatin,"80 mg · Lipitor, cholesterol"
+doxycycline,50 mg · antibiotic
+doxycycline,100 mg · antibiotic
+amoxicillin,250 mg · antibiotic
+amoxicillin,500 mg · antibiotic
+amoxicillin,875 mg · antibiotic
+cephalexin,"250 mg · Keflex, antibiotic"
+cephalexin,"500 mg · Keflex, antibiotic"
+metformin,500 mg · diabetes
+metformin,850 mg · diabetes
+metformin,1000 mg · diabetes
+Ozempic,"0.25 mg · semaglutide, diabetes"
+Ozempic,"0.5 mg · semaglutide, diabetes"
+Ozempic,"1 mg · semaglutide, diabetes"
+Ozempic,"2 mg · semaglutide, diabetes"
+insulin glargine,100 units/mL · Lantus
+lisinopril,2.5 mg · blood pressure
+lisinopril,5 mg · blood pressure
+lisinopril,10 mg · blood pressure
+lisinopril,20 mg · blood pressure
+lisinopril,40 mg · blood pressure
+amlodipine,2.5 mg · blood pressure
+amlodipine,5 mg · blood pressure
+amlodipine,10 mg · blood pressure
+metoprolol,25 mg · beta blocker
+metoprolol,50 mg · beta blocker
+metoprolol,100 mg · beta blocker
+spironolactone,25 mg · diuretic
+spironolactone,50 mg · diuretic
+spironolactone,100 mg · diuretic
+sertraline,"25 mg · Zoloft, antidepressant"
+sertraline,"50 mg · Zoloft, antidepressant"
+sertraline,"100 mg · Zoloft, antidepressant"
+escitalopram,"5 mg · Lexapro, antidepressant"
+escitalopram,"10 mg · Lexapro, antidepressant"
+escitalopram,"20 mg · Lexapro, antidepressant"
+gabapentin,100 mg · nerve pain
+gabapentin,300 mg · nerve pain
+gabapentin,400 mg · nerve pain
+gabapentin,600 mg · nerve pain
+gabapentin,800 mg · nerve pain
+cyclobenzaprine,5 mg · muscle relaxant
+cyclobenzaprine,10 mg · muscle relaxant
+prednisone,5 mg · steroid
+prednisone,10 mg · steroid
+prednisone,20 mg · steroid
+albuterol,90 mcg per puff · rescue inhaler
+diphenhydramine,25 mg · Benadryl
+diphenhydramine,50 mg · Benadryl
