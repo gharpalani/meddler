@@ -177,8 +177,7 @@ LOGO = """<svg width="52" height="27" viewBox="0 0 170 80">
 
 st.markdown(f'<div class="mc-head">{LOGO}<h1>Med<span class="brand-tail">Clear</span></h1></div>',
             unsafe_allow_html=True)
-st.markdown('<p class="mc-sub">Understand your medications in plain language. '
-            'This tool does not give medical advice.</p>',
+st.markdown('<p class="mc-sub">Understand your medications in plain language.</p>',
             unsafe_allow_html=True)
 
 key = api_key()
